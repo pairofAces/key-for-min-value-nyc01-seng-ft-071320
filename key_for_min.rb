@@ -5,8 +5,7 @@ def key_for_min_value(name_hash)
   lowest_k = nil
   lowest_v = nil
   name_hash.select do |name, num|
-    if num < 2
-      puts "#{name}"
+    if lowest_k == nil || 
     end
   end
 end
